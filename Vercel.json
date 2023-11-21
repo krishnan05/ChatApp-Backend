@@ -4,9 +4,40 @@
       {
         "src": "index.js",
         "use": "@now/node"
+      },
+      {
+        "src": "node_modules/bcrypt/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/cors/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/dotenv/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/express/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/mongoose/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/node-fetch/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/nodemon/**",
+        "use": "@now/node"
+      },
+      {
+        "src": "node_modules/socket.io/**",
+        "use": "@now/node"
       }
-    ]
-  ,
+    ],
   
   "routes": [
     {
